@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ConnectFour {
     public static void printBoard(char[][]array){//First Commit
-int i = 0;
+int i = 0;//Second Commit
         for(int v = array.length - 1; v >= 0; v--){// Prints the board in reverse and makes the bottom row 0
     for(i=0;i < array[v].length;i++){
         System.out.print(array[v][i]+ " ");
